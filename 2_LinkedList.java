@@ -1,4 +1,4 @@
-public class 2_LinkedList {
+public class LinkedList {
     private class Node               
     {
         int data;
@@ -221,5 +221,18 @@ public class 2_LinkedList {
             return i.data;
         }
         
+    }
+}
+
+public class main {
+    public static void main(String[] args) throws Exception 
+    {
+        LinkedList ll = new LinkedList();
+        ll.addLast(10);
+        ll.addLast(20);
+        ll.addLast(30);
+        ll.addLast(40);
+        ll.addFirst(5);       
+        ll.addAt(3, 66);
     }
 }
